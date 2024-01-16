@@ -74,6 +74,27 @@
   text-transform: capitalize;
 }
 
+.desc h3 {
+  font-size: 1.3rem;
+}
+.desc p {
+  background-color: yellow;
+  width: 50px;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.logos {
+  padding: 5px 20px;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .card__container:nth-of-type(1) {
   grid-row: 1 / 3;
 }
